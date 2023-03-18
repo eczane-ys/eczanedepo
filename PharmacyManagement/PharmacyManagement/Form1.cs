@@ -16,6 +16,7 @@ namespace PharmacyManagement
         {
             InitializeComponent();
             //deneme12
+            //konya uyan artık
         }
     }
 }
