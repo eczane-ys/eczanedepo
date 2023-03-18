@@ -15,8 +15,8 @@ namespace PharmacyManagement
         public Form1()
         {
             InitializeComponent();
-            //deneme12
-            //konya uyan artık
+            
+            
         }
     }
 }
