@@ -33,6 +33,7 @@ namespace PharmacyManagement
         private void Adminstrator_Load(object sender, EventArgs e)
         {
             uC_Dashbord1.Visible= false;
+            btnDashbord.PerformClick();
         }
     }
 }
