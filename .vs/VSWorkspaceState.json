@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\PharmacyManagement",
+    "\\PharmacyManagement\\PharmacyManagement"
   ],
-  "SelectedNode": "\\PharmacyManagement.sln",
+  "SelectedNode": "\\PharmacyManagement\\PharmacyManagement\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }
