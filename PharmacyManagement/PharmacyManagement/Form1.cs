@@ -19,5 +19,29 @@ namespace PharmacyManagement
             
         }
 
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            txtUsarname.Clear();
+            txtPassword.Clear();
+        }
+
+        private void btnSignIn_Click(object sender, EventArgs e)
+        {
+            if(txtUsarname.Text=="btechdays"&&txtPassword.Text=="pass")
+            {
+                Adminstrator am= new Adminstrator();
+                am.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Wrong Username Or Password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }
