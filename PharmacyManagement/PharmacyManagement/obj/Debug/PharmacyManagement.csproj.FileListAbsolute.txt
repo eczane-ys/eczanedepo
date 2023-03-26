@@ -39,3 +39,9 @@ C:\Users\guzelgun\Source\Repos\eczanedepo\PharmacyManagement\PharmacyManagement\
 C:\Users\guzelgun\Source\Repos\eczanedepo\PharmacyManagement\PharmacyManagement\obj\Debug\PharmacyManagement.exe
 C:\Users\guzelgun\Source\Repos\eczanedepo\PharmacyManagement\PharmacyManagement\obj\Debug\PharmacyManagement.pdb
 C:\Users\guzelgun\Source\Repos\eczanedepo\PharmacyManagement\PharmacyManagement\obj\Debug\PharmacyManagement.AdministratorUC.UC_AddUser.resources
+C:\Users\bunya\Source\Repos\eczanedepo\PharmacyManagement\PharmacyManagement\obj\Debug\PharmacyManagement.AdministratorUC.UC_AddUser.resources
+C:\Users\bunya\Source\Repos\eczanedepo\PharmacyManagement\PharmacyManagement\obj\Debug\PharmacyManagement.AdministratorUC.UC_Dashbord.resources
+C:\Users\bunya\Source\Repos\eczanedepo\PharmacyManagement\PharmacyManagement\obj\Debug\PharmacyManagement.Adminstrator.resources
+C:\Users\bunya\Source\Repos\eczanedepo\PharmacyManagement\PharmacyManagement\obj\Debug\PharmacyManagement.Form1.resources
+C:\Users\bunya\Source\Repos\eczanedepo\PharmacyManagement\PharmacyManagement\bin\Debug\Guna.UI2.dll
+C:\Users\bunya\Source\Repos\eczanedepo\PharmacyManagement\PharmacyManagement\obj\Debug\PharmacyManagement.csproj.CopyComplete

@@ -16,5 +16,7 @@ namespace PharmacyManagement.AdministratorUC
         {
             InitializeComponent();
         }
+
+
     }
 }
