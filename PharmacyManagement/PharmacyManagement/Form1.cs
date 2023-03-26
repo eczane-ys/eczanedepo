@@ -32,7 +32,7 @@ namespace PharmacyManagement
 
         private void btnSignIn_Click(object sender, EventArgs e)
         {
-            if(txtUsarname.Text=="btechdays"&&txtPassword.Text=="pass")
+            if(txtUsarname.Text=="admin"&&txtPassword.Text=="admin")
             {
                 Adminstrator am= new Adminstrator();
                 am.Show();
