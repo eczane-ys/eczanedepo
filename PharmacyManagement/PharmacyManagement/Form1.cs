@@ -54,9 +54,9 @@ namespace PharmacyManagement
                 if (ds.Tables[0].Rows.Count != 0)
                 {
                     string role = ds.Tables[0].Rows[0][1].ToString();
-                    if(role =="administrator")
+                    if(role =="Administrator")
                     {
-                        Adminstrator admin =new Adminstrator();
+                        Adminstrator admin =new Adminstrator(txtUsarname.Text);
                         admin.Show();
                         this.Hide();
                     }
@@ -66,6 +66,11 @@ namespace PharmacyManagement
                         pharm.Show(); 
                         this.Hide();
                     }
+
+                }
+                else
+                { 
+                    MessageBox.Show("Wrong Username OR Password","Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
 
