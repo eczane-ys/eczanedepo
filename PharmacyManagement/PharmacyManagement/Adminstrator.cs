@@ -17,6 +17,12 @@ namespace PharmacyManagement
             InitializeComponent();
         }
 
+        public Adminstrator(string user)
+        {
+            InitializeComponent();
+            userNameLabel.Text = user;
+        }
+
         private void btnLogOut_Click(object sender, EventArgs e)
         {
             Form1 fm = new Form1();

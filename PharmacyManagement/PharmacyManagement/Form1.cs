@@ -12,6 +12,10 @@ namespace PharmacyManagement
 {
     public partial class Form1 : Form
     {
+        function fn = new function();
+        string query;
+        DataSet ds;
+
         public Form1()
         {
             InitializeComponent();
@@ -32,16 +36,69 @@ namespace PharmacyManagement
 
         private void btnSignIn_Click(object sender, EventArgs e)
         {
-            if(txtUsarname.Text=="admin"&&txtPassword.Text=="admin")
+            query = "select * from users";
+            ds = fn.getData(query);
+            if (ds.Tables[0].Rows.Count == 0)
             {
-                Adminstrator am= new Adminstrator();
-                am.Show();
-                this.Hide();
+                if(txtUsarname.Text=="root" && txtPassword.Text== "root")
+                {
+                    Adminstrator admin = new Adminstrator();
+                    admin.Show();
+                    this.Hide();
+                }
             }
             else
             {
-                MessageBox.Show("Wrong Username Or Password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                query = "select * from users where username ='" + txtUsarname.Text + "' and pass='" + txtPassword.Text + "'";
+                ds = fn.getData(query);
+                if (ds.Tables[0].Rows.Count != 0)
+                {
+                    string role = ds.Tables[0].Rows[0][1].ToString();
+                    if(role =="administrator")
+                    {
+                        Adminstrator admin =new Adminstrator();
+                        admin.Show();
+                        this.Hide();
+                    }
+                    else if(role =="Pharmacist")
+                    {
+                        Pharmacist pharm = new Pharmacist();
+                        pharm.Show(); 
+                        this.Hide();
+                    }
+                }
             }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            //if(txtUsarname.Text=="admin"&&txtPassword.Text=="admin")
+            //{
+            //    Adminstrator am= new Adminstrator();
+            //    am.Show();
+            //    this.Hide();
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Wrong Username Or Password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //}
         }
     }
 }

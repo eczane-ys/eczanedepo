@@ -31,7 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Adminstrator));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
+            this.userNameLabel = new System.Windows.Forms.Label();
             this.btnLogOut = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
@@ -41,9 +41,9 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.uC_Dashbord1 = new PharmacyManagement.AdministratorUC.UC_Dashbord();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.uC_Dashbord1 = new PharmacyManagement.AdministratorUC.UC_Dashbord();
             this.uC_AddUser1 = new PharmacyManagement.AdministratorUC.UC_AddUser();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -53,7 +53,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.userNameLabel);
             this.panel1.Controls.Add(this.btnLogOut);
             this.panel1.Controls.Add(this.guna2Button4);
             this.panel1.Controls.Add(this.guna2Button3);
@@ -67,16 +67,16 @@
             this.panel1.Size = new System.Drawing.Size(253, 749);
             this.panel1.TabIndex = 0;
             // 
-            // label2
+            // userNameLabel
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.ForeColor = System.Drawing.Color.Yellow;
-            this.label2.Location = new System.Drawing.Point(92, 684);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(114, 29);
-            this.label2.TabIndex = 9;
-            this.label2.Text = "btechdays";
+            this.userNameLabel.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.userNameLabel.ForeColor = System.Drawing.Color.Yellow;
+            this.userNameLabel.Location = new System.Drawing.Point(0, 684);
+            this.userNameLabel.Name = "userNameLabel";
+            this.userNameLabel.Size = new System.Drawing.Size(250, 29);
+            this.userNameLabel.TabIndex = 9;
+            this.userNameLabel.Text = "btechdays";
+            this.userNameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnLogOut
             // 
@@ -217,14 +217,6 @@
             this.panel3.Size = new System.Drawing.Size(1105, 766);
             this.panel3.TabIndex = 1;
             // 
-            // guna2Elipse1
-            // 
-            this.guna2Elipse1.TargetControl = this.panel3;
-            // 
-            // guna2Elipse2
-            // 
-            this.guna2Elipse2.TargetControl = this.panel2;
-            // 
             // uC_Dashbord1
             // 
             this.uC_Dashbord1.BackColor = System.Drawing.Color.White;
@@ -233,6 +225,14 @@
             this.uC_Dashbord1.Name = "uC_Dashbord1";
             this.uC_Dashbord1.Size = new System.Drawing.Size(1105, 766);
             this.uC_Dashbord1.TabIndex = 0;
+            // 
+            // guna2Elipse1
+            // 
+            this.guna2Elipse1.TargetControl = this.panel3;
+            // 
+            // guna2Elipse2
+            // 
+            this.guna2Elipse2.TargetControl = this.panel2;
             // 
             // uC_AddUser1
             // 
@@ -278,7 +278,7 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
         private Guna.UI2.WinForms.Guna2Button btnAddUser;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label userNameLabel;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private AdministratorUC.UC_Dashbord uC_Dashbord1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
