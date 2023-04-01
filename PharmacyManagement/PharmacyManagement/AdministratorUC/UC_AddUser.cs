@@ -42,6 +42,37 @@ namespace PharmacyManagement.AdministratorUC
                 MessageBox.Show("Username Allready exist.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            clearAll();
+        }
+
+        public void clearAll()
+        {
+            txtName.Clear();
+            txtDob.ResetText();
+            txtMobileNo.Clear();
+            txtEmail.Clear();
+            txtUsername.Clear();
+            txtPassword.Clear();
+            txtUserRole.SelectedIndex = -1;
+        }
+
+        private void txtUsername_TextChanged(object sender, EventArgs e)
+        {
+            query = "select * from users where username='" + txtUsername.Text + "'";
+            DataSet ds = fn.getData(query);
+
+            if (ds.Tables[0].Rows.Count == 0)
+            {
+                pictureBox1.ImageLocation = @"C:\\Users\\lenovo\\Desktop\\C# Pharmacy Management System\\Pharmacy Management System in C#\\yes.png";
+            }
+            else
+            {
+                pictureBox1.ImageLocation = @"C:\\Users\\lenovo\\Desktop\\C# Pharmacy Management System\\Pharmacy Management System in C#\\no.png";
+            }
+        }
     }
 
 
