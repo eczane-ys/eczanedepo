@@ -61,3 +61,5 @@ C:\Users\lenovo\Source\Repos\eczanedepo\PharmacyManagement\PharmacyManagement\ob
 C:\Users\lenovo\Source\Repos\eczanedepo\PharmacyManagement\PharmacyManagement\obj\Debug\PharmacyManagement.csproj.CopyComplete
 C:\Users\lenovo\Source\Repos\eczanedepo\PharmacyManagement\PharmacyManagement\obj\Debug\PharmacyManagement.exe
 C:\Users\lenovo\Source\Repos\eczanedepo\PharmacyManagement\PharmacyManagement\obj\Debug\PharmacyManagement.pdb
+C:\Users\bunya\Source\Repos\eczanedepo\PharmacyManagement\PharmacyManagement\obj\Debug\PharmacyManagement.AdministratorUC.UC_ViewUser.resources
+C:\Users\bunya\source\repos\eczanedepo\PharmacyManagement\PharmacyManagement\obj\Debug\PharmacyManagement.AdministratorUC.UC_Profile.resources

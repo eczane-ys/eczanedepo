@@ -53,7 +53,7 @@ namespace PharmacyManagement
                 ds = fn.getData(query);
                 if (ds.Tables[0].Rows.Count != 0)
                 {
-                    string role = ds.Tables[0].Rows[0][1].ToString();
+                    String role = ds.Tables[0].Rows[0][1].ToString();
                     if(role =="Administrator")
                     {
                         Adminstrator admin =new Adminstrator(txtUsarname.Text);
@@ -94,9 +94,9 @@ namespace PharmacyManagement
 
 
 
-            //if(txtUsarname.Text=="admin"&&txtPassword.Text=="admin")
+            //if (txtUsarname.Text == "admin" && txtPassword.Text == "admin")
             //{
-            //    Adminstrator am= new Adminstrator();
+            //    Adminstrator am = new Adminstrator();
             //    am.Show();
             //    this.Hide();
             //}

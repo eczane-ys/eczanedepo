@@ -12,15 +12,23 @@ namespace PharmacyManagement
 {
     public partial class Adminstrator : Form
     {
+        String user = "";
         public Adminstrator()
         {
             InitializeComponent();
         }
 
-        public Adminstrator(string user)
+        public string ID
+        { 
+            get { return user.ToString(); }
+        }
+        public Adminstrator(string username)
         {
             InitializeComponent();
-            userNameLabel.Text = user;
+            userNameLabel.Text = username;
+            user = username;
+            uC_ViewUser1.ID = ID;
+            uC_Profile1.ID = ID;
         }
 
         private void btnLogOut_Click(object sender, EventArgs e)
@@ -40,6 +48,8 @@ namespace PharmacyManagement
         {
             uC_Dashbord1.Visible= false;
             uC_AddUser1.Visible = false;
+            uC_ViewUser1.Visible = false;
+            uC_Profile1.Visible = false;
             btnDashbord.PerformClick();
         }
 
@@ -47,6 +57,18 @@ namespace PharmacyManagement
         {
             uC_AddUser1.Visible = true;
             uC_AddUser1.BringToFront();
+        }
+
+        private void btnViewUser_Click(object sender, EventArgs e)
+        {
+            uC_ViewUser1.Visible = true;
+            uC_ViewUser1.BringToFront();
+        }
+
+        private void btnProfile_Click(object sender, EventArgs e)
+        {
+            uC_Profile1.Visible = true;
+            uC_Profile1.BringToFront();
         }
     }
 }
