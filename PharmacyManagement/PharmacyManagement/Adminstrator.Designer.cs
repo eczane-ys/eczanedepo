@@ -41,13 +41,13 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.uC_Profile1 = new PharmacyManagement.AdministratorUC.UC_Profile();
+            this.uC_ViewUser1 = new PharmacyManagement.AdministratorUC.UC_ViewUser();
+            this.uC_Dashbord1 = new PharmacyManagement.AdministratorUC.UC_Dashbord();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.uC_Profile1 = new PharmacyManagement.AdministratorUC.UC_Profile();
-            this.uC_ViewUser1 = new PharmacyManagement.AdministratorUC.UC_ViewUser();
-            this.uC_Dashbord1 = new PharmacyManagement.AdministratorUC.UC_Dashbord();
             this.uC_AddUser1 = new PharmacyManagement.AdministratorUC.UC_AddUser();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -192,7 +192,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(41, 194);
+            this.label1.Location = new System.Drawing.Point(49, 194);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(201, 39);
             this.label1.TabIndex = 3;
@@ -225,25 +225,10 @@
             this.panel3.Size = new System.Drawing.Size(1105, 766);
             this.panel3.TabIndex = 1;
             // 
-            // guna2Elipse1
-            // 
-            this.guna2Elipse1.TargetControl = this.panel3;
-            // 
-            // guna2Elipse2
-            // 
-            this.guna2Elipse2.TargetControl = this.panel2;
-            // 
-            // guna2Elipse3
-            // 
-            this.guna2Elipse3.TargetControl = this.panel2;
-            // 
-            // guna2Elipse4
-            // 
-            this.guna2Elipse4.TargetControl = this.panel2;
-            // 
             // uC_Profile1
             // 
             this.uC_Profile1.BackColor = System.Drawing.Color.White;
+            this.uC_Profile1.ForeColor = System.Drawing.Color.Black;
             this.uC_Profile1.Location = new System.Drawing.Point(-18, 0);
             this.uC_Profile1.Name = "uC_Profile1";
             this.uC_Profile1.Size = new System.Drawing.Size(1104, 770);
@@ -265,6 +250,22 @@
             this.uC_Dashbord1.Name = "uC_Dashbord1";
             this.uC_Dashbord1.Size = new System.Drawing.Size(1105, 766);
             this.uC_Dashbord1.TabIndex = 0;
+            // 
+            // guna2Elipse1
+            // 
+            this.guna2Elipse1.TargetControl = this.panel3;
+            // 
+            // guna2Elipse2
+            // 
+            this.guna2Elipse2.TargetControl = this.panel2;
+            // 
+            // guna2Elipse3
+            // 
+            this.guna2Elipse3.TargetControl = this.panel2;
+            // 
+            // guna2Elipse4
+            // 
+            this.guna2Elipse4.TargetControl = this.panel2;
             // 
             // uC_AddUser1
             // 

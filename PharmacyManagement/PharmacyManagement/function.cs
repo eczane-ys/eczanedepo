@@ -15,7 +15,7 @@ namespace PharmacyManagement
         protected SqlConnection getConnection()
         {
             SqlConnection con = new SqlConnection();
-            con.ConnectionString = "data source = DESKTOP-I3GF696\\WINCCPLUSMIG2014;database=pharmacy;integrated security =True";
+            con.ConnectionString = "data source = GUZELGUN\\WINCC;database=pharmacy;integrated security =True";
             return con;
         }
         public DataSet getData(string query) 
