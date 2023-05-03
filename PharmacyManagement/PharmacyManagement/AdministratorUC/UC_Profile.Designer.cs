@@ -58,9 +58,9 @@
             this.label1.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.Location = new System.Drawing.Point(86, 41);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 36);
+            this.label1.Size = new System.Drawing.Size(81, 36);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Profile";
+            this.label1.Text = "Profil";
             // 
             // pictureBox1
             // 
@@ -79,7 +79,7 @@
             this.userNameLabel.Name = "userNameLabel";
             this.userNameLabel.Size = new System.Drawing.Size(244, 20);
             this.userNameLabel.TabIndex = 2;
-            this.userNameLabel.Text = "username";
+            this.userNameLabel.Text = "Kullanıcı Adı";
             this.userNameLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label3
@@ -88,9 +88,9 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.Location = new System.Drawing.Point(664, 75);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(75, 18);
+            this.label3.Size = new System.Drawing.Size(96, 18);
             this.label3.TabIndex = 3;
-            this.label3.Text = "User Role";
+            this.label3.Text = "Kullanıcı Türü";
             // 
             // txtUserRole
             // 
@@ -116,9 +116,9 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label4.Location = new System.Drawing.Point(664, 147);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(48, 18);
+            this.label4.Size = new System.Drawing.Size(25, 18);
             this.label4.TabIndex = 5;
-            this.label4.Text = "Name";
+            this.label4.Text = "Ad";
             // 
             // txtName
             // 
@@ -168,9 +168,9 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label5.Location = new System.Drawing.Point(664, 232);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(140, 18);
+            this.label5.Size = new System.Drawing.Size(97, 18);
             this.label5.TabIndex = 7;
-            this.label5.Text = "DOB (Date Of Birth)";
+            this.label5.Text = "Doğum Tarihi";
             // 
             // txtMobile
             // 
@@ -199,9 +199,9 @@
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label6.Location = new System.Drawing.Point(668, 308);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(76, 18);
+            this.label6.Size = new System.Drawing.Size(81, 18);
             this.label6.TabIndex = 9;
-            this.label6.Text = "Mobile No";
+            this.label6.Text = "Telefon No";
             // 
             // txtEmail
             // 
@@ -230,9 +230,9 @@
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label7.Location = new System.Drawing.Point(668, 384);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(95, 18);
+            this.label7.Size = new System.Drawing.Size(90, 18);
             this.label7.TabIndex = 11;
-            this.label7.Text = "Email Adress";
+            this.label7.Text = "Email Adresi";
             // 
             // txtPassword
             // 
@@ -261,9 +261,9 @@
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label8.Location = new System.Drawing.Point(664, 460);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(75, 18);
+            this.label8.Size = new System.Drawing.Size(38, 18);
             this.label8.TabIndex = 13;
-            this.label8.Text = "Password";
+            this.label8.Text = "Şifre";
             // 
             // btnUpdate
             // 
@@ -286,7 +286,7 @@
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(146, 48);
             this.btnUpdate.TabIndex = 15;
-            this.btnUpdate.Text = "Update";
+            this.btnUpdate.Text = "Güncelle";
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnReset
@@ -310,7 +310,7 @@
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(146, 48);
             this.btnReset.TabIndex = 16;
-            this.btnReset.Text = "Reset";
+            this.btnReset.Text = "Yenile";
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // label9
@@ -319,11 +319,11 @@
             this.label9.BackColor = System.Drawing.Color.White;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.label9.Location = new System.Drawing.Point(688, 638);
+            this.label9.Location = new System.Drawing.Point(688, 625);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(232, 16);
+            this.label9.Size = new System.Drawing.Size(273, 16);
             this.label9.TabIndex = 17;
-            this.label9.Text = "*Check the Details Before UPDATION";
+            this.label9.Text = "*Güncellemeden Önce Ayrıntıları Kontrol Edin";
             // 
             // guna2Elipse1
             // 

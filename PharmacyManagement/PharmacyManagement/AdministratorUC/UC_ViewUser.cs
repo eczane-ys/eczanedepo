@@ -52,7 +52,7 @@ namespace PharmacyManagement.AdministratorUC
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Are you sure ", "Delete Confirmation !", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            if (MessageBox.Show("Emin Misin ? ", "Onayı Sil !", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
             {
 
 
@@ -64,7 +64,7 @@ namespace PharmacyManagement.AdministratorUC
                 }
                 else
                 {
-                    MessageBox.Show("You are trying to delete \n Your own profile.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Silmeye çalışıyorsunuz \n Kendi profilinizi.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
         }

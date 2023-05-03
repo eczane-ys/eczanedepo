@@ -42,13 +42,13 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.uC_Profile1 = new PharmacyManagement.AdministratorUC.UC_Profile();
+            this.uC_AddUser1 = new PharmacyManagement.AdministratorUC.UC_AddUser();
             this.uC_ViewUser1 = new PharmacyManagement.AdministratorUC.UC_ViewUser();
             this.uC_Dashbord1 = new PharmacyManagement.AdministratorUC.UC_Dashbord();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.uC_AddUser1 = new PharmacyManagement.AdministratorUC.UC_AddUser();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
@@ -100,7 +100,7 @@
             this.btnLogOut.Name = "btnLogOut";
             this.btnLogOut.Size = new System.Drawing.Size(263, 45);
             this.btnLogOut.TabIndex = 8;
-            this.btnLogOut.Text = "Log Out";
+            this.btnLogOut.Text = "Çıkış";
             this.btnLogOut.Click += new System.EventHandler(this.btnLogOut_Click);
             // 
             // btnProfile
@@ -121,7 +121,7 @@
             this.btnProfile.Name = "btnProfile";
             this.btnProfile.Size = new System.Drawing.Size(263, 45);
             this.btnProfile.TabIndex = 7;
-            this.btnProfile.Text = "Profile";
+            this.btnProfile.Text = "Profil";
             this.btnProfile.Click += new System.EventHandler(this.btnProfile_Click);
             // 
             // btnViewUser
@@ -142,7 +142,7 @@
             this.btnViewUser.Name = "btnViewUser";
             this.btnViewUser.Size = new System.Drawing.Size(263, 45);
             this.btnViewUser.TabIndex = 6;
-            this.btnViewUser.Text = "View User";
+            this.btnViewUser.Text = "Kullanıcı Gör";
             this.btnViewUser.Click += new System.EventHandler(this.btnViewUser_Click);
             // 
             // btnAddUser
@@ -163,7 +163,7 @@
             this.btnAddUser.Name = "btnAddUser";
             this.btnAddUser.Size = new System.Drawing.Size(263, 45);
             this.btnAddUser.TabIndex = 5;
-            this.btnAddUser.Text = "Add User";
+            this.btnAddUser.Text = "Kullanıcı Ekle";
             this.btnAddUser.Click += new System.EventHandler(this.btnAddUser_Click);
             // 
             // btnDashbord
@@ -184,7 +184,7 @@
             this.btnDashbord.Name = "btnDashbord";
             this.btnDashbord.Size = new System.Drawing.Size(263, 45);
             this.btnDashbord.TabIndex = 4;
-            this.btnDashbord.Text = "Dashbord";
+            this.btnDashbord.Text = "Panel";
             this.btnDashbord.Click += new System.EventHandler(this.btnDashbord_Click);
             // 
             // label1
@@ -192,11 +192,11 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(49, 194);
+            this.label1.Location = new System.Drawing.Point(78, 194);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(201, 39);
+            this.label1.Size = new System.Drawing.Size(121, 39);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Administrator";
+            this.label1.Text = "Yönetici";
             // 
             // pictureBox1
             // 
@@ -218,6 +218,7 @@
             // panel3
             // 
             this.panel3.Controls.Add(this.uC_Profile1);
+            this.panel3.Controls.Add(this.uC_AddUser1);
             this.panel3.Controls.Add(this.uC_ViewUser1);
             this.panel3.Controls.Add(this.uC_Dashbord1);
             this.panel3.Location = new System.Drawing.Point(274, 1);
@@ -229,10 +230,20 @@
             // 
             this.uC_Profile1.BackColor = System.Drawing.Color.White;
             this.uC_Profile1.ForeColor = System.Drawing.Color.Black;
-            this.uC_Profile1.Location = new System.Drawing.Point(-18, 0);
+            this.uC_Profile1.Location = new System.Drawing.Point(1, -1);
             this.uC_Profile1.Name = "uC_Profile1";
             this.uC_Profile1.Size = new System.Drawing.Size(1104, 770);
             this.uC_Profile1.TabIndex = 2;
+            // 
+            // uC_AddUser1
+            // 
+            this.uC_AddUser1.BackColor = System.Drawing.Color.White;
+            this.uC_AddUser1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.uC_AddUser1.Location = new System.Drawing.Point(3, -1);
+            this.uC_AddUser1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.uC_AddUser1.Name = "uC_AddUser1";
+            this.uC_AddUser1.Size = new System.Drawing.Size(1104, 770);
+            this.uC_AddUser1.TabIndex = 0;
             // 
             // uC_ViewUser1
             // 
@@ -267,16 +278,6 @@
             // 
             this.guna2Elipse4.TargetControl = this.panel2;
             // 
-            // uC_AddUser1
-            // 
-            this.uC_AddUser1.BackColor = System.Drawing.Color.White;
-            this.uC_AddUser1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.uC_AddUser1.Location = new System.Drawing.Point(249, 0);
-            this.uC_AddUser1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.uC_AddUser1.Name = "uC_AddUser1";
-            this.uC_AddUser1.Size = new System.Drawing.Size(1104, 770);
-            this.uC_AddUser1.TabIndex = 0;
-            // 
             // Adminstrator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -284,7 +285,6 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1380, 768);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.uC_AddUser1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Adminstrator";

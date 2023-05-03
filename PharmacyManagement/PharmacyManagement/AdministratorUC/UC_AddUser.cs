@@ -39,7 +39,7 @@ namespace PharmacyManagement.AdministratorUC
 
             catch (Exception)
             {
-                MessageBox.Show("Username Allready exist.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Kullanıcı adı zaten var.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -67,11 +67,11 @@ namespace PharmacyManagement.AdministratorUC
             if (ds.Tables[0].Rows.Count == 0)
             {
                 // dosya yolu hata veriyo değişicek
-                pictureBox1.ImageLocation = @"C:\\Users\\lenovo\\Desktop\\C# Pharmacy Management System\\Pharmacy Management System in C#\\yes.png";
+                pictureBox1.ImageLocation = @"C:\Users\guzelgun\Desktop\C# Pharmacy Management System_2\Pharmacy Management System in C#\yes.png";
             }
             else
             {
-                pictureBox1.ImageLocation = @"C:\\Users\\lenovo\\Desktop\\C# Pharmacy Management System\\Pharmacy Management System in C#\\no.png";
+                pictureBox1.ImageLocation = @"C:\Users\guzelgun\Desktop\C# Pharmacy Management System_2\Pharmacy Management System in C#\no.png";
             }
         }
     }

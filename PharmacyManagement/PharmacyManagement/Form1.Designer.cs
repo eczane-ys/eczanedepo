@@ -77,9 +77,9 @@
             this.label1.Location = new System.Drawing.Point(103, 104);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(291, 177);
+            this.label1.Size = new System.Drawing.Size(183, 177);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Pharmacy\r\nManagement\r\nSystem";
+            this.label1.Text = "Eczane\r\nYönetim\r\nSistemi";
             // 
             // btnExit
             // 
@@ -123,12 +123,12 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(838, 225);
+            this.label2.Location = new System.Drawing.Point(850, 225);
             this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(85, 25);
+            this.label2.Size = new System.Drawing.Size(61, 25);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Sign In";
+            this.label2.Text = "Giriş";
             // 
             // label3
             // 
@@ -137,9 +137,9 @@
             this.label3.Location = new System.Drawing.Point(725, 358);
             this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(107, 26);
+            this.label3.Size = new System.Drawing.Size(118, 26);
             this.label3.TabIndex = 5;
-            this.label3.Text = "User Name";
+            this.label3.Text = "Kullanıcı Adı";
             // 
             // label4
             // 
@@ -148,9 +148,9 @@
             this.label4.Location = new System.Drawing.Point(725, 468);
             this.label4.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(94, 26);
+            this.label4.Size = new System.Drawing.Size(50, 26);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Password";
+            this.label4.Text = "Şifre";
             // 
             // txtUsarname
             // 
@@ -215,7 +215,7 @@
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(144, 36);
             this.btnReset.TabIndex = 9;
-            this.btnReset.Text = "Reset";
+            this.btnReset.Text = "Yenile";
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // btnSignIn
@@ -239,7 +239,7 @@
             this.btnSignIn.Name = "btnSignIn";
             this.btnSignIn.Size = new System.Drawing.Size(144, 36);
             this.btnSignIn.TabIndex = 10;
-            this.btnSignIn.Text = "Sign In";
+            this.btnSignIn.Text = "Giriş";
             this.btnSignIn.Click += new System.EventHandler(this.btnSignIn_Click);
             // 
             // Form1

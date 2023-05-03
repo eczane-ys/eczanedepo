@@ -61,9 +61,9 @@
             this.label1.Location = new System.Drawing.Point(25, 22);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(149, 36);
+            this.label1.Size = new System.Drawing.Size(208, 36);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Add User";
+            this.label1.Text = "Kullanıcı Ekle";
             // 
             // label2
             // 
@@ -72,9 +72,9 @@
             this.label2.Location = new System.Drawing.Point(41, 190);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 20);
+            this.label2.Size = new System.Drawing.Size(102, 20);
             this.label2.TabIndex = 1;
-            this.label2.Text = "User Role";
+            this.label2.Text = "Kullanıcı Türü";
             // 
             // label3
             // 
@@ -83,9 +83,9 @@
             this.label3.Location = new System.Drawing.Point(41, 314);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(51, 20);
+            this.label3.Size = new System.Drawing.Size(38, 20);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Name";
+            this.label3.Text = "İsim";
             // 
             // label4
             // 
@@ -94,9 +94,9 @@
             this.label4.Location = new System.Drawing.Point(41, 444);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(148, 20);
+            this.label4.Size = new System.Drawing.Size(103, 20);
             this.label4.TabIndex = 3;
-            this.label4.Text = "DOB (Date of Birth)";
+            this.label4.Text = "Doğum Tarihi";
             // 
             // label5
             // 
@@ -105,9 +105,9 @@
             this.label5.Location = new System.Drawing.Point(41, 559);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(79, 20);
+            this.label5.Size = new System.Drawing.Size(86, 20);
             this.label5.TabIndex = 4;
-            this.label5.Text = "Mobile No";
+            this.label5.Text = "Telefon No";
             // 
             // label6
             // 
@@ -116,9 +116,9 @@
             this.label6.Location = new System.Drawing.Point(618, 190);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(111, 20);
+            this.label6.Size = new System.Drawing.Size(97, 20);
             this.label6.TabIndex = 5;
-            this.label6.Text = "Email Address";
+            this.label6.Text = "Email Adresi";
             // 
             // label7
             // 
@@ -127,9 +127,9 @@
             this.label7.Location = new System.Drawing.Point(618, 314);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(83, 20);
+            this.label7.Size = new System.Drawing.Size(93, 20);
             this.label7.TabIndex = 6;
-            this.label7.Text = "Username";
+            this.label7.Text = "Kullanıcı Adı";
             // 
             // txtUserRole
             // 
@@ -157,9 +157,9 @@
             this.label8.Location = new System.Drawing.Point(618, 444);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(78, 20);
+            this.label8.Size = new System.Drawing.Size(42, 20);
             this.label8.TabIndex = 8;
-            this.label8.Text = "Password";
+            this.label8.Text = "Şifre";
             // 
             // txtName
             // 
@@ -307,7 +307,7 @@
             this.btnSignUp.Name = "btnSignUp";
             this.btnSignUp.Size = new System.Drawing.Size(180, 45);
             this.btnSignUp.TabIndex = 17;
-            this.btnSignUp.Text = "Sign Up";
+            this.btnSignUp.Text = "Giriş";
             this.btnSignUp.Click += new System.EventHandler(this.btnSignUp_Click);
             // 
             // btnReset
@@ -329,7 +329,7 @@
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(180, 45);
             this.btnReset.TabIndex = 18;
-            this.btnReset.Text = "Reset";
+            this.btnReset.Text = "Yenile";
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // guna2Elipse1
@@ -338,6 +338,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.ErrorImage")));
             this.pictureBox1.Location = new System.Drawing.Point(985, 340);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(62, 36);
@@ -350,12 +351,12 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.label9.Location = new System.Drawing.Point(683, 651);
+            this.label9.Location = new System.Drawing.Point(641, 650);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(243, 16);
+            this.label9.Size = new System.Drawing.Size(346, 16);
             this.label9.TabIndex = 20;
-            this.label9.Text = "*Check User Role Once Before Sign Up";
+            this.label9.Text = "*Kaydolmadan Önce Kullanıcı Rolünü Bir Kez Kontrol Edin";
             // 
             // UC_AddUser
             // 

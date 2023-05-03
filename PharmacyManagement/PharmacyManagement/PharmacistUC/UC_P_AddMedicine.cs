@@ -12,6 +12,9 @@ namespace PharmacyManagement.PharmacistUC
 {
     public partial class UC_P_AddMedicine : UserControl
     {
+        function fn = new function();
+        String query;
+        
         public UC_P_AddMedicine()
         {
             InitializeComponent();
@@ -21,12 +24,37 @@ namespace PharmacyManagement.PharmacistUC
         {
             if (txtMediId.Text != "" && txtMediName.Text != "" && txtMediNumber.Text != "" && txtQuantity.Text != "" && txtPricePerUnit.Text != "")
             {
+                String mid = txtMediId.Text;
+                String mname = txtMediName.Text;
+                String mnumber = txtMediNumber.Text;
+                String mdate = txtManufacturingDate.Text;
+                String edate = txtExpireDate.Text;
+                Int64 quantity = Int64.Parse(txtQuantity.Text);
+                Int64 perunit = Int64.Parse(txtPricePerUnit.Text);
 
+                query = "insert into medic (mid,mname,mnumber,mDate,eDate,quantity,perUnit) values ('"+mid+"','"+mname+"','"+mnumber+"','"+mdate+"','"+edate+"','"+quantity+"','"+perunit+"')";
+                fn.setData(query, "Medicine Added to Databese.");
             }
             else
             {
-                MessageBox.Show("Enter all Data.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Tüm Verileri Girin.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+        }
+
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            clearAll();    
+        }
+
+        public void clearAll()
+        {
+            txtMediId.Clear();
+            txtMediName.Clear();
+            txtQuantity.Clear();
+            txtMediNumber.Clear();
+            txtPricePerUnit.Clear();
+            txtManufacturingDate.ResetText();
+            txtExpireDate.ResetText();
         }
     }
 }

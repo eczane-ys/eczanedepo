@@ -117,12 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="guna2Elipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>16, 17</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>60</value>
-  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btnSync.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -167,7 +161,7 @@
         5vYX0Be5jU/8J386a4T/5I+n/z1ISPgHQk6aCaeyCxoAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         R0lGODlh7gLuAqIFAEE5X/CQe/XdhZva2aCCwQAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/wtY
         TVAgRGF0YVhNUDw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlk
@@ -1181,41 +1175,17 @@
         4AI+4ARe4AZ+4Aie4KeTAAA7
 </value>
   </data>
-  <data name="label11.Text" xml:space="preserve">
+  <data name="btnDelete.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-Yönetici, en yüksek düzeydeki roldür.
-erişim.
-Yöneticiler içerik ekleyebilir ve tümüne erişebilir
-Yönetici Araç Çubuğundaki öğeler.
-
-Bu, Yöneticilerin kontrol edebileceği anlamına gelir
-tasarım vb. gibi ayarlar
-
-Diğer yönetici kullanıcılarını ekleyebilir ve silebilir</value>
+        iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAABGdBTUEAALGPC/xhBQAAAR9JREFUSEvt
+        lTFqAlEURQdSuw7B/5/7SHrdgATMImJlJOmTFWhlmaxAC6sUugCjlTMgaJfW3A+3+j7/+8YmEA8cBJ17
+        dJwRi/9JJSKl91/hkU9dBmJtOI6cwQMf49fanNqUIi8YLOE3DMFcw/HL0rlnpk6z8X6Agz9/a9gz9Qeo
+        vO+H0z7XsGPCBqe9htr3nta5FRM2OHiqRmwnTNjgtEdKwBS7IRM2vMPUUErsnpiwweAhDuSIN+kyYYMf
+        5J0WMRW5ZcKmaja9GrFsNBwTNtt6vaZGDMOOiTxwp+y1UMIdp/lgtIgiSXHR55zmg+FHHDJ85zQfjN6i
+        SFqRV07z2Th3r8ZOiGvY4TSfQ6t1g0/XQyD+BzxW5DEcz+mVSyiKH8nWKoTh8hFUAAAAAElFTkSuQmCC
+</value>
   </data>
-  <data name="label15.Text" xml:space="preserve">
-    <value>Yönetici, en yüksek düzeydeki roldür.
-erişim.
-
-Yöneticiler içerik ekleyebilir ve tümüne erişebilir
-Yönetici Araç Çubuğundaki öğeler.
-
-Bu, Yöneticilerin kontrol edebileceği anlamına gelir
-tasarım vb. gibi ayarlar
-
-Diğer yönetici kullanıcılarını ekleyebilir ve silebilir</value>
-  </data>
-  <data name="label6.Text" xml:space="preserve">
-    <value>Yönetici, en yüksek düzeydeki roldür.
-erişim.
-
-Yöneticiler içerik ekleyebilir ve tümüne 
-erişebilir
-Yönetici Araç Çubuğundaki öğeler.
-Bu, Yöneticilerin kontrol edebileceği 
-anlamına gelir tasarım vb. gibi ayarlar
-
-Diğer yönetici kullanıcılarını ekleyebilir ve 
-silebilir</value>
-  </data>
+  <metadata name="guna2Elipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>

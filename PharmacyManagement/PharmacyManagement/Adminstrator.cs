@@ -70,5 +70,7 @@ namespace PharmacyManagement
             uC_Profile1.Visible = true;
             uC_Profile1.BringToFront();
         }
+
+
     }
 }

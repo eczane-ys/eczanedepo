@@ -70,7 +70,7 @@ namespace PharmacyManagement
                 }
                 else
                 { 
-                    MessageBox.Show("Wrong Username OR Password","Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Yanlış Kullanıcı Adı Veya Şifre", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
 
